@@ -1,0 +1,453 @@
+/* style font */
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1240px;
+    
+    margin: o auto;
+    
+    
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    margin: 30px;
+    border-radius: 40px;
+    
+}
+.header-info{
+    width: 630px;
+    height: 400px;
+    color: white;
+    margin: 43px;
+}
+.header-info h1{
+    
+    font-weight: 700;
+    font-size: 60px;
+}
+.header-info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;;
+}
+.header-info button{
+    width: 187.02px;
+    height: 56px;
+    background-color:rgb(13, 224, 143);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.header-img{
+   display: flex;
+   margin-top: 15px;
+   margin-left: 20px;
+   
+}
+
+/* section Blog */
+.blog-section{
+    display: flex;
+    
+    gap: 10px;
+    
+
+}
+.match-button{
+    width: 320px;
+    height: 320px;
+    background-color: black;
+    margin-right: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+.up{
+    background: #FFFFFF;
+   
+    width: 200px;
+    height: 64px;
+    border-radius: 15px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+    line-height: 30px;
+    margin-left: 25px;
+    
+    
+}
+.all{
+    background: #FFFFFF;
+    
+    width: 200px;
+    height: 64px;
+    border-radius: 15px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 25px;
+}
+.blog-b{
+    background:
+    #DD0000;
+    
+    width: 200px;
+    height: 64px;
+    border-radius: 15px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 25px;
+}
+
+
+/* section Blog images */
+
+
+.blog-section .img{
+    width: 312px;
+    height: 330px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+    text-align: center;
+    border: 1px solid rgba(255, 245, 238, 0.342);
+}
+
+.transfer-button{
+    color:     
+    #080808;
+    width: 67px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-right: 200px;
+    background: none;
+    border-radius: 4px;
+    border: 1px solid black;
+    box-shadow: 1px ;
+}
+.icon{
+    display: flex;
+    grid-column-gap: 10px;
+    justify-content: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.transfer .img{
+    padding: 10px;
+}
+.img{
+    width: 312px;
+    height: 362px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+    text-align: center;
+    border: 1px solid rgba(255, 245, 238, 0.342);
+    
+}
+
+
+
+.end{
+    display: flex;
+   background-color: #080808;
+   width: 1500px;
+   height: 444px;
+   margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+   display: inline-block;
+}
+.goal {
+   color: #FFFFFF;
+   font-weight: 600;
+   font-size: 40px;
+   text-align: center;
+   margin-top: 80px;
+   margin-right: 80px;
+}
+
+h1:hover{
+   color: #DD0000;
+}
+  
+
+nav{
+   display: flex;
+   justify-content: center;
+   margin: 40px;
+}
+
+nav a{
+   text-decoration: none;
+   color: #B9B9B9 ;
+   font-weight: 500;
+font-size: 16px;
+margin-top: 40px;
+margin: 60px;
+}
+
+.blog-section-mid{
+    display: flex;
+    width: 100%;
+    margin-left: 280px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+
+
+
+
+/*.............. 2nd web site style........................... */
+
+/* ...............flag style ..........*/
+
+.img-flag{
+   
+    width: 300px;
+    height: 222px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.082), 0 6px 20px 0 rgba(0, 0, 0, 0.082);
+    text-align: center;
+    border: 1px solid rgba(255, 245, 238, 0.342);
+    justify-content: center;
+    
+    
+}
+
+.img-flag img{
+   margin-top: 30px;
+   
+}
+.img-flag .vs{
+   margin-bottom: 50px;
+}
+
+
+
+.blog-section-two{
+    padding-right: 100px;
+    margin-right: 150px;
+}
+.blog-section-two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+    margin-left: 272px;
+    gap: 10px;
+}
+
+
+
+.blog-section-one{
+    display: flex;
+    gap: 10px;
+
+}
+.match-button-one{
+    width: 260px;
+    height: 312px;
+    background-color: black;
+    margin-right: 2px;
+    border-radius: 10px;
+    
+
+}
+.red-up{
+    background: #DD0000;
+    width: 200px;
+    height: 64px;
+    border-radius: 10px;
+    color: #161616;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+    line-height: 30px;
+    margin-left: 25px;
+    
+}
+.img-flag p{
+   margin: 10px;
+}
+/* 2nd web site style end */
+
+
+ /* mobaile devices */
+@media screen and (max-width:576px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color:rgb(0, 0, 0);
+        width: 100%;
+        margin: 0%;
+    }
+
+    .header-info h1{
+        font-weight: 700;
+        font-size: 30px;
+        padding: 20px;
+        text-align: justify;
+        margin: 0%;
+        
+    }
+
+.header-info p{
+    text-align: justify;
+    font-weight: 400;
+font-size: 14px;
+
+/* or 171% */
+
+text-align: center;
+}
+    .header-info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        margin: 0%;
+       
+    
+
+    }
+
+    .header-img{
+        display: grid;
+        width: 100%;
+        margin-top: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0%;
+    }
+
+    .blog-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0%;
+        justify-content: center;
+        padding-left: 80px;
+    }
+
+    .blog-section-mid{
+        display: grid;
+        grid-template-columns: repeat(1,1tr);
+        margin: 0%;
+        padding-left: 80px;
+    }
+ 
+  
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #080808;
+        margin: 0%;
+        padding-left: 80px;
+    }
+
+    .end{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .match-button{
+        display: grid;
+        grid-template-rows: repeat(1 , 1fr);
+        
+        background: none;
+        margin: 0%;
+        width: 100%;
+    }
+    
+
+
+
+    }
+
+    /* ------tablet devices--------- */
+    @media screen and (min-width:577px) and (max-width:768px){
+       
+        .container{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            background-color:rgb(0, 0, 0);
+            width: 100%;
+            margin: 0%;
+        }
+    
+        .header-info h1{
+            font-weight: 700;
+            font-size: 30px;
+            padding: 20px;
+            text-align: justify;
+            margin: 0%;
+            
+        }
+    
+    .header-info p{
+        text-align: justify;
+        font-weight: 400;
+    font-size: 14px;
+    
+    
+    
+    text-align: center;
+    }
+        .header-info{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            width: 100%;
+            margin: 0%;
+           
+        
+    
+        }
+    
+        .header-img{
+            display: grid;
+            width: 100%;
+            margin-top: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0%;
+        }
+    
+        .blog-section {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin: 0%;
+            justify-content: center;
+            padding-left: 80px;
+        }
+    
+        .blog-section-mid{
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            margin: 0%;
+        }
+        .match-button{
+            display: grid;
+            grid-template-rows: repeat(1 , 1fr);
+            
+            background: none;
+            margin: 0%;
+            width: 100%;
+        }
+        
+    nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #080808;
+        margin: 0%;
+        padding-left: 80px;
+        
+        
+    }
+
+    .end{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    }
+
